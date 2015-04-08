@@ -32,22 +32,22 @@ a{
   text-decoration:none;
 }
 
-.ant-nest{
+.ant-image{
   width:50%;
   float:left;
 }
 
-.dung{
-  width:20%;
+.dung-image{
+  width:50%;
   float:left;
 }
 
-.stag{
+.stag-image{
     width:50%;
     float:right;
 }
 
-.tortoise{
+.tortoise-image{
   width:50%;
   float:right;
 }
@@ -71,7 +71,6 @@ h1{
 h2{
   font-size: 20px;
   font-family: "Dosis";
-  font-style: italic;
   color:white;
   width:100%;
   text-align:center;
