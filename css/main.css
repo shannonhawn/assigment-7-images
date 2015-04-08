@@ -32,15 +32,10 @@ a{
   text-decoration:none;
 }
 
-
-ul{
-  overflow: hidden;
-}
-
-li{
-  padding: 0.5em .75em;
-  background-color:#222222;
-  color:white;
+.photo-right{
+  width:50%;
+  float:right;
+  font-size:12px;
 }
 
 h1{
@@ -87,5 +82,4 @@ footer{
   padding: 0.5em 0em;
   text-align: center;
   margin:0;
-  text-decoration: underline;
 }
