@@ -12,19 +12,25 @@ body{
 }
 
 header{
-  position:relative;
-  padding:0.75em 0;
-  text-align:center;
+  padding:0;
+  background-image: url("../images/subtle_white_mini_waves.png");
 }
 
-.btn{
-  display: inline-block;
-  padding: 0.5em 0.75em;
-  text-decoration:none;
-  color: #fff;
-  background-color: #a8ae98;
-  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
-  border-radius:10px;
+nav{
+  overflow:hidden;
+  text-align:center;
+  width:100%;
+  background-color: rgba(81, 34, 0, 0.5);
+}
+
+nav li{
+  display:inline-block;
+  width:25%;
+}
+
+nav ul{
+  padding:0;
+  margin:0;
 }
 
 a{
@@ -40,6 +46,7 @@ a{
 .dung-image{
   width:50%;
   float:left;
+  clear:both;
 }
 
 .stag-image{
@@ -59,30 +66,31 @@ a{
 }
 
 h1{
-  font-size:12px;
+  font-size:2.5rem;
+  font-weight:700;
   color:#512200;
   text-align:center;
-  position:absolute;
-  width:100%;
-  bottom:16px;
+  width:70%;
+  bottom:36px;
+  float:left;
   font-family:"Dosis";
 }
 
 h2{
-  font-size: 20px;
-  font-family: "Dosis";
+  font-size:50px;
+  font-family:"Dosis";
   color:white;
   width:100%;
   text-align:center;
   position:absolute;
-  top:33em;
+  top:20em;
   clear:both;
   z-index:9;
 }
 
-.ant-nest{
-  font-size: 50px;
-  font-family: "Dosis";
+.figcaption{
+  font-size:20px;
+  font-family:"Dosis";
   color:white;
   width:100%;
   text-align:center;
@@ -92,38 +100,18 @@ h2{
   z-index:9;
 }
 
-.stag-beetle{
-  font-size: 50px;
-  font-family: "Dosis";
-  color:white;
-  width:100%;
-  text-align:center;
-  position:absolute;
-  top:73em;
-  clear:both;
-  z-index:9;
+.header-beetle-left{
+  width:10%;
+  float:left;
+  padding:0.7em 0 0.5em 0.5em;
+  top:30px;
+  right:5px;
 }
 
-.dung-beetle{
-  font-size: 50px;
-  font-family: "Dosis";
-  color:white;
-  width:100%;
-  text-align:center;
-  position:absolute;
-  top:73em;
-  clear:both;
-  z-index:9;
-}
-
-.tortoise-beetle{
-  font-size: 50px;
-  font-family: "Dosis";
-  color:white;
-  width:100%;
-  text-align:center;
-  position:absolute;
-  top:73em;
-  clear:both;
-  z-index:9;
+.header-beetle-right{
+  width:10%;
+  float:right;
+  padding:0.7em 0 0.5em 0.5em;
+  top:30px;
+  right:5px;
 }
