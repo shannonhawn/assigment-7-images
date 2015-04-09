@@ -8,11 +8,15 @@ html{
 
 body{
   font-family:"Dosis";
+  margin:0;
 }
 
 header{
   padding:0;
   background-image: url("../images/subtle_white_mini_waves.png");
+  background-size:75px auto, 200px auto;
+  background-repeat:repeat;
+  background-position: center 10px, left top;
 }
 
 .header-beetle-left{
@@ -62,18 +66,17 @@ li:hover{
 
 .life-forms{
   background-image: url("../images/59402778_e3fe0706d8_o.jpg");
-  position:relative;
-  padding:0;
 }
 
 h1{
-  font-size:5.5rem;
+  font-size:5rem;
   font-weight:800;
   text-align:center;
   width:70%;
   bottom:36px;
   float:left;
   font-family:"Dosis";
+  color:#512200;
 }
 
 h2{
@@ -81,11 +84,10 @@ h2{
   color:white;
   width:100%;
   text-align:center;
-  position:absolute;
   top:2em;
   clear:both;
   z-index:9;
-}
+  }
 
 .ant-image{
   width:50%;
@@ -142,8 +144,8 @@ width:100%;
 }
 
 .footer-beetle{
-  width:10%;
-  padding:0.3em 0 0.3em 0.3em;
+  width:8%;
+  padding:1em 0 0.3em 1em;
 }
 
 .button-left{
