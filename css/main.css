@@ -66,6 +66,9 @@ li:hover{
 
 .life-forms{
   background-image: url("../images/59402778_e3fe0706d8_o.jpg");
+  clear: both;
+  padding-top:20em;
+  margin:0;
 }
 
 h1{
@@ -81,12 +84,13 @@ h1{
 
 h2{
   font-family:"Dosis";
+  font-size:2.5rem;
   color:white;
-  width:100%;
+  width:90%;
   text-align:center;
-  top:2em;
   clear:both;
   z-index:9;
+  margin:0;
   }
 
 .ant-image{
@@ -102,6 +106,7 @@ h2{
   clear:both;
   position:relative;
   display:inline-block;
+  margin:0;
 }
 
 .stag-image{
@@ -109,6 +114,7 @@ h2{
     float:right;
     position:relative;
     display:inline-block;
+    margin:0;
 }
 
 .tortoise-image{
@@ -136,18 +142,6 @@ h2{
   z-index:9;
 }
 
-footer{
-background-color: rgba(81,34,0,0.4);
-position:relative;
-display:inline-block;
-width:100%;
-}
-
-.footer-beetle{
-  width:8%;
-  padding:1em 0 0.3em 1em;
-}
-
 .button-left{
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -156,7 +150,6 @@ width:100%;
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6fc000, #388200);
   border-radius:10px;
-  position:absolute;
 }
 
 .button-right{
@@ -167,6 +160,20 @@ width:100%;
   background-color: #a8ae98;
   background-image: linear-gradient(to bottom, #6fc000, #388200);
   border-radius:10px;
-  position:absolute;
   top:43px;
+}
+
+footer{
+background-color: rgba(81,34,0,0.4);
+position:relative;
+display:inline-block;
+width:100%;
+}
+
+.footer-beetle{
+  padding:1em 0 0.3em 1em;
+}
+
+.beetle-bottom{
+  margin:0 30% 0;
 }
