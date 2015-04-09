@@ -11,13 +11,25 @@ body{
   margin:;
 }
 
-.life-forms{
-  background-image: url("../images/59402778_e3fe0706d9_o.jpg");
-}
-
 header{
   padding:0;
   background-image: url("../images/subtle_white_mini_waves.png");
+}
+
+.header-beetle-left{
+  width:15%;
+  float:left;
+  padding:0.7em 0 0.5em 0.5em;
+  top:30px;
+  left:5px;
+}
+
+.header-beetle-right{
+  width:15%;
+  float:right;
+  padding:0.7em 0 0.5em 0.5em;
+  top:30px;
+  right:5px;
 }
 
 nav{
@@ -49,31 +61,8 @@ li:hover{
   width:20%;
 }
 
-.ant-image{
-  width:50%;
-  float:left;
-}
-
-.dung-image{
-  width:50%;
-  float:left;
-  clear:both;
-}
-
-.stag-image{
-    width:50%;
-    float:right;
-}
-
-.tortoise-image{
-  width:50%;
-  float:right;
-}
-
-.sand{
-  width:100%;
-  clear:both;
-  position:relative;
+.life-forms{
+  background-image: url("../images/59402778_e3fe0706d9_o.jpg");
 }
 
 h1{
@@ -99,6 +88,41 @@ h2{
   z-index:9;
 }
 
+.ant-image{
+  width:50%;
+  float:left;
+  position:relative;
+  display:block;
+}
+
+.dung-image{
+  width:50%;
+  float:left;
+  clear:both;
+  position:relative;
+  display:inline-block;
+}
+
+.stag-image{
+    width:50%;
+    float:right;
+    position:relative;
+    display:inline-block;
+}
+
+.tortoise-image{
+  width:50%;
+  float:right;
+  position:relative;
+  display:inline-block;
+}
+
+.sand{
+  width:100%;
+  clear:both;
+  position:relative;
+}
+
 .figcaption{
   font-size:30px;
   font-family:"Dosis";
@@ -111,24 +135,11 @@ h2{
   z-index:9;
 }
 
-.header-beetle-left{
-  width:15%;
-  float:left;
-  padding:0.7em 0 0.5em 0.5em;
-  top:30px;
-  left:5px;
-}
-
-.header-beetle-right{
-  width:15%;
-  float:right;
-  padding:0.7em 0 0.5em 0.5em;
-  top:30px;
-  right:5px;
-}
-
 footer{
 background-color: rgba(81,34,0,0.4);
+position:relative;
+display:inline-block;
+width:100%;
 }
 
 .footer-beetle{
@@ -142,8 +153,9 @@ background-color: rgba(81,34,0,0.4);
   text-decoration:none;
   color: #fff;
   background-color: #a8ae98;
-  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
   border-radius:10px;
+  position:absolute;
 }
 
 .button-right{
@@ -152,6 +164,7 @@ background-color: rgba(81,34,0,0.4);
   text-decoration:none;
   color: #fff;
   background-color: #a8ae98;
-  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
   border-radius:10px;
+  position:absolute;
 }
