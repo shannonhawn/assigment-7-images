@@ -100,7 +100,7 @@ h2{
 }
 
 .figcaption{
-  font-size:20px;
+  font-size:30px;
   font-family:"Dosis";
   color:white;
   width:100%;
@@ -132,6 +132,26 @@ background-color: rgba(81,34,0,0.4);
 }
 
 .footer-beetle{
-  width:15%;
+  width:10%;
   padding:0.3em 0 0.3em 0.3em;
+}
+
+.button-left{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration:none;
+  color: #fff;
+  background-color: #a8ae98;
+  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  border-radius:10px;
+}
+
+.button-right{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration:none;
+  color: #fff;
+  background-color: #a8ae98;
+  background-image: linear-gradient(to bottom, #a8ae98, #5b5e52);
+  border-radius:10px;
 }
