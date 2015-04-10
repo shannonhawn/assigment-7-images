@@ -15,8 +15,7 @@ body{
 /*header*/
 
 h1{
-  font-size:5rem;
-  font-style:bold;
+  font-size:7rem;
   font-weight:800;
   text-align:center;
   width:70%;
@@ -29,7 +28,7 @@ h1{
 header{
   padding:0;
   background-image: url("../images/subtle_white_mini_waves.png");
-  background-size:75px auto, 200px auto;
+  background-size:145px auto, 320px auto;
   background-repeat:repeat;
   background-position: center 10px, left top;
 }
@@ -50,7 +49,6 @@ header{
   right:5px;
 }
 
-
 /*Nav*/
 
 
@@ -60,12 +58,14 @@ nav{
   width:100%;
   background-color: rgba(81, 34, 0, 0.5);
   margin:0;
+  font-size:3em;
 }
 
 nav li{
   display:inline-block;
   width:20%;
   padding:0.7em 0 0.7em 0;
+  height:3em;
 }
 
 nav ul{
@@ -82,7 +82,6 @@ li:hover{
   background-color: rgba(81,34,0,0.4);
   width:20%;
 }
-
 
 /*Banner*/
 
@@ -102,13 +101,12 @@ li:hover{
 
 h2{
   font-family:"Dosis";
-  font-size:2.5rem;
+  font-size:3.5rem;
   color:white;
   width:90%;
   text-align:center;
-  clear:both;
-  z-index:9;
   margin:0;
+  bottom:2em;
   }
 
   /*Squares*/
@@ -130,7 +128,6 @@ h2{
   display: block;
 
 }
-
 
 p{
   display: block;
@@ -156,10 +153,6 @@ background-color: rgba(81,34,0,0.4);
 position:relative;
 display:inline-block;
 width:100%;
-}
-
-.footer-beetle{
-  padding:1em 0 0.3em 1em;
 }
 
 .beetle-bottom{
